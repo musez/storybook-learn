@@ -1,11 +1,12 @@
 {
-  "name": "storybook-test",
+  "name": "storybook-learn",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "storybook": "start-storybook -p 9001 -c .storybook"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -14,6 +15,7 @@
     "vuex": "^3.4.0"
   },
   "devDependencies": {
+    "@storybook/vue": "^6.0.21",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-plugin-router": "~4.5.0",
