@@ -1,4 +1,4 @@
-# storybook-test
+# storybook-learn
 
 ## Project setup
 ```
